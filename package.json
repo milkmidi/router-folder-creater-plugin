@@ -1,0 +1,25 @@
+{
+  "name": "router-folder-creater-plugin",
+  "version": "1.0.0",
+  "description": "Create folder and HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milkmidi/router-folder-creater-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milkmidi/router-folder-creater-plugin/issues"
+  },
+  "homepage": "https://github.com/milkmidi/router-folder-creater-plugin#readme",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0"
+  }
+}
