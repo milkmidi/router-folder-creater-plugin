@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/milkmidi/router-folder-creater-plugin.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "milkmidi",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/milkmidi/router-folder-creater-plugin/issues"
   },
@@ -19,7 +23,14 @@
   "dependencies": {
     "mkdirp": "^0.5.1"
   },
+  "peerDependencies": {
+    "webpack": "^2.0.0 || ^3.0.0"
+  },
   "devDependencies": {
-    "eslint": "^4.15.0"
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
   }
 }
